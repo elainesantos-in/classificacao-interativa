@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="stylesheet" href="preenvio.css">
+  <title>Frontend Mentor | Interactive rating component</title>
+
+</head>
+<body class="background">
+
+  <div class="card">
+    <div class="card-conteudo">
+        <div class="div--estrela">
+          <span class="material-symbols-outlined" id="estrela">star</span>
+        </div>
+        
+        <h1 class="Titulo--Pergunta">How did we do?</h1>
+        <p class="descricao">  Please let us know how we did with your support request. All feedback is appreciated 
+          to help us improve our offering!</p>
+          <div class="div--notas">
+              <span class="nota" value="1">1</span>
+              <span class="nota" value="2">2</span>
+              <span class="nota" value="3">3</span>
+              <span class="nota" value="4">4</span>
+              <span class="nota" value="5">5</span>
+          </div>
+          <button class="button--enviar">SUBMIT</button>
+    </div>
+    <div class="card--conteudo__final">
+      <div class="card--final">
+              <img src="./images/illustration-thank-you.svg" id="celular--enviando__resposta" alt="celular enviando resposta">
+              <p class="nota--enviada">You selected 4 out of 5</p>
+              <h2 class="titulo--obrigado">Thank you!</h2>
+              <p class="menssagem--agradecimento">We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!</p>
+      </div>
+    </div>
+  </div>
+ <style>
+      .material-symbols-outlined {
+        font-variation-settings:
+        'FILL' 1,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 48
+      }
+      </style>
+    <script src="./codigo.js"></script>
+
+</body>
+</html>

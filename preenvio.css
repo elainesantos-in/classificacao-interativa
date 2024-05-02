@@ -1,0 +1,178 @@
+.background{
+    background-color: #131519;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.card{
+    background-color: #1F272F;
+    height: 20rem;
+    width: 20rem;
+    border-radius: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*----------------------CARD 1-----------------------------*/
+
+.card-conteudo{
+    height: 20rem;
+    width: 20rem;
+    position: absolute;
+    display: block;
+}
+
+
+.div--estrela{
+    position: absolute;
+    left: 1.5rem;
+    top: 1.5rem;
+    height: 2.3rem;
+    width: 2.3rem;
+    border-radius: 1rem;
+    background-color: #272E3A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#estrela{
+    color:  #ff6619;
+    font-size: 1rem;
+}
+
+.Titulo--Pergunta{
+    font-family: Arial, Helvetica ;
+    font-size: 1.1rem;
+    color: #ffffff;
+    position: absolute;
+    left: 1.5rem;
+    top: 4.5rem;
+}
+
+.descricao{
+    font-family: Arial, Helvetica;
+    font-size: 0.8rem;
+    color: #8a8c8f;
+    width: 18rem;
+    position: absolute;
+    left: 1.5rem;
+    top: 6.7rem;
+    line-height:1.3rem;
+
+}
+
+.nota{
+    height: 2.4rem;
+    width: 2.4rem;
+    background-color: #272E3A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #8a8c8f;
+    border-radius: 2rem;
+    font-family: Arial, Helvetica;
+    margin-right: 1rem;
+}
+.nota:hover{
+    background-color: #afa8a8;
+    color: #ffffff;
+}
+
+.nota-selecionada {
+    background-color: #ff6619;
+    color: #ffffff;
+  }
+
+
+
+.div--notas{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    left: 1.5rem;
+    top: 12.5rem ;
+}
+
+.button--enviar{
+    position: absolute;
+    left: 1.5rem;
+    top: 16.5rem ;
+    width: 17rem;
+    height: 2.2rem;
+    border-radius: 1.1rem;
+    background-color:  #ff6619;
+    border-style: none;
+    color: #ffffff;
+    font-family: Arial, Helvetica;
+
+}
+
+.button--enviar:hover{
+    background-color: #ffffff;
+    color: #ff6619;
+}
+
+/*----------------------CARD 2-----------------------------*/
+.card--conteudo__final{
+    height: 20rem;
+    width: 20rem;
+    display: none;
+
+}
+
+.card--final{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    flex-direction: column;
+    height: 20rem;
+    width: 20rem;
+}
+#celular--enviando__resposta{
+    width: 6.5rem;
+    height: 4.5rem;
+    position: absolute;
+    top: 2rem;
+
+}
+
+.nota--enviada{
+    position: absolute;
+    top: 8.1rem;
+    font-family: Arial, Helvetica;
+    font-size: 0.7rem;
+    color: #e16020;
+    background-color: #272E3A ;
+    padding: 0.3rem;
+    border-radius: 0.6rem;
+    width: 8rem;
+    text-align: center;
+    margin: 0;
+
+}
+
+.titulo--obrigado{
+    position: absolute;
+    font-family: Arial, Helvetica;
+    color: #ffffff;
+    top: 10.3rem;
+    font-size: 1.1rem;
+}
+
+.menssagem--agradecimento{
+    position: absolute;
+    text-align: center;
+    color: #8a8c8f ;
+    font-family: Arial, Helvetica;
+    font-size: 0.7rem;
+    width: 16rem;
+    margin: 0;
+    top:13.5rem;
+    line-height:1.3rem;
+}
+
+
